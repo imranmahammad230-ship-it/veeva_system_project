@@ -97,8 +97,8 @@ Run the framework using:
 ```
 mvn clean test
 ```
-This will execute all scenarios and generate reports in the target folder.
----
+
+
 
 ## 📊 Validations Performed
 
@@ -117,6 +117,8 @@ This will execute all scenarios and generate reports in the target folder.
 * Environment variables
 
 ---
+# Execution Re
+
 
 ## 📌 Key Highlights
 
