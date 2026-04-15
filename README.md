@@ -1,20 +1,23 @@
-# 🐾 PetStore API Automation Framework
+# 🐾 Precision API BDD Automation Framework
 
 ## 📌 Overview
 
-This project automates testing of the PetStore API using a BDD framework.
-It validates CRUD operations, status codes, and cross-endpoint data consistency.
+This project is a BDD-based API Automation Framework developed using Java, REST Assured, and Cucumber. It automates testing of REST APIs provided by the PetStore Swagger service. The framework is designed with a modular and reusable structure to ensure scalability and maintainability.
+
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Java
-* Rest Assured
-* Cucumber (BDD)
-* TestNG
-* Maven
-* Postman
+•	Language: Java 
+•	Library: REST Assured 
+•	BDD Framework: Cucumber 
+•	Build & Dependency Management: Maven 
+•	Prototyping & Manual Testing: Postman 
+•	Version Control: Git & GitHub 
+•	Logging: Log4j 
+•	IDE: IntelliJ IDEA
+
 
 ---
 
@@ -22,13 +25,33 @@ It validates CRUD operations, status codes, and cross-endpoint data consistency.
 
 ```
 src/test/java
- ├── client
- ├── stepdefinitions
- ├── utils
+|  |
+|   base
+|    |------BaseTest.java
+|   client
+|    |------PetStoreClient.java
+|   runners 
+|    |------TestRunner.java
+|   stepdefinitions
+|    |-------CrossEndPointSteps.java
+|    |-------InventorySteps.java
+|    |-------PetSteps.java
+|    |-------UserSteps.java
+|   utils
+|    |-------ConfigReader.java
+|    |-------TestContext.java
+|    |-------TestDataBuilder.java
+resources  
+|    |-----features
+|    |      |------crossendpoint.feature
+|    |      |------inventory.feature
+|    |      |------pet.feature
+|    |      |------user.feature
+|    |-----payloads
+|    |      |------createPet.json
+|    |      |------config.properties
+pom.xml
 
-src/test/resources
- └── features
-```
 
 ---
 
@@ -65,12 +88,12 @@ src/test/resources
 
 ## ▶️ How to Run
 
-Run tests using:
+Run the framework using:
 
 ```
 mvn clean test
 ```
-
+This will execute all scenarios and generate reports in the target folder.
 ---
 
 ## 📊 Validations Performed
