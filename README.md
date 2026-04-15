@@ -9,14 +9,14 @@ This project is a BDD-based API Automation Framework developed using Java, REST 
 
 ## 🛠️ Tech Stack
 
- Language: Java 
- Library: REST Assured 
-•	BDD Framework: Cucumber 
-•	Build & Dependency Management: Maven 
-•	Prototyping & Manual Testing: Postman 
-•	Version Control: Git & GitHub 
-•	Logging: Log4j 
-•	IDE: IntelliJ IDEA
+- Language: Java 
+- Library: REST Assured 
+-	BDD Framework: Cucumber 
+-	Build & Dependency Management: Maven 
+-	Prototyping & Manual Testing: Postman 
+-	Version Control: Git & GitHub 
+-	Logging: Log4j 
+-	IDE: IntelliJ IDEA
 
 
 ---
@@ -117,7 +117,7 @@ mvn clean test
 * Environment variables
 
 ---
-# Execution Re
+
 
 
 ## 📌 Key Highlights
@@ -131,8 +131,11 @@ mvn clean test
 
 ## 🚀 Future Enhancements
 
-* Reporting (Extent Reports)
-* CI/CD integration
-* Data-driven testing
+-	Integration with CI/CD tools (Jenkins)
+-	Data-driven testing using Excel/JSON
+-	Environment-based configuration
+-	Parallel execution of test cases
+-	Advanced reporting (Extent Reports)
+
 
 ---
