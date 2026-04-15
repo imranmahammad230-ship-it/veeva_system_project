@@ -9,8 +9,8 @@ This project is a BDD-based API Automation Framework developed using Java, REST 
 
 ## 🛠️ Tech Stack
 
-•	Language: Java 
-•	Library: REST Assured 
+ Language: Java 
+ Library: REST Assured 
 •	BDD Framework: Cucumber 
 •	Build & Dependency Management: Maven 
 •	Prototyping & Manual Testing: Postman 
